@@ -1,0 +1,28 @@
+# OS generated files
+.DS_Store
+.Spotlight-V100
+
+# IntelliJ Generated
+.idea
+*.iml
+
+# gradle
+.gradle/
+bin/
+build/
+out/
+dist/
+backend/temp/
+log/
+
+# Front End Dependency Generated
+dist/
+node/
+npm/
+node_modules/
+coverage/
+
+/.nb-gradle/
+backend-buildinfo.properties
+
+.project
