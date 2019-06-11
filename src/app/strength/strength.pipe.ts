@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import {Pipe, PipeTransform} from '@angular/core';
 
 /*
  * Show Weak, Strong, Unbelievable
@@ -10,16 +10,16 @@ import { Pipe, PipeTransform } from '@angular/core';
  *   formats to: 1024
 */
 @Pipe({
-  name: 'strength'
+    name: 'strength'
 })
 export class StrengthPipe implements PipeTransform {
-  transform(value: number): string {
-    if(value < 10) {
-      return value + " (weak)";
-    } else if(value >= 10 && value < 20) {
-      return value + " (strong)";
-    } else {
-      return value + " (unbelievable)";
+    transform(value: number): string {
+        if (value < 10) {
+            return value + ' (weak)';
+        } else if (value >= 10 && value < 20) {
+            return value + ' (strong)';
+        } else {
+            return value + ' (unbelievable)';
+        }
     }
-  }
 }
