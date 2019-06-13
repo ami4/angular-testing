@@ -38,5 +38,4 @@ describe('HeroesComponent', () => {
             expect(mockHeroService.deleteHero).toHaveBeenCalledWith(HEROES[2]);
         });
     });
-
 });
